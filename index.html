@@ -1,35 +1,25 @@
 <html>
 <head>
-    <title>About Us - Coltivare</title>
-    <meta charset="UTF-8">
+    <title>About Us - NovaEdge Technologies</title>
     <style>
         body {
-            background-color: #D2B48C; /* light brown */
-            color: #004d00; /* dark green text */
-            font-family: "Arial", sans-serif;
-            text-align: center;
+            background-color: #d2b48c; /* light brown */
+            color: #004d00; /* dark green */
+            font-family: Arial;
         }
 
         .container {
-            width: 800px;
-            margin: 0 auto;
+            width: 80%;
+            margin: auto;
             background-color: #ccffcc; /* light green */
             padding: 20px;
-            border: 3px solid #004d00;
         }
 
-        h1 {
-            font-size: 36px;
-            color: #004d00;
-            text-decoration: underline;
-        }
-
-        h2 {
-            color: #006600;
-        }
-
-        p {
-            font-size: 16px;
+        .textbook-box {
+            background-color: #fdfae6;
+            border: 2px dashed #666633;
+            padding: 15px;
+            margin-top: 20px;
         }
 
         .small-text {
@@ -44,97 +34,77 @@
             font-family: "Courier New", monospace;
         }
 
-        .textbook-box {
-            background-color: #fdfae6; /* cream/yellow */
-            border: 2px dashed #666633;
-            padding: 20px;
-            margin: 20px 0;
-            text-align: left;
-        }
-
-        img {
-            margin: 20px auto;
-            display: block;
-            border: 2px solid #004d00;
-        }
-
-        a {
-            color: #006600;
-        }
-
-        hr {
-            border: 2px solid #004d00;
-        }
-
         .page-break {
-            border: none;
             border-top: 4px double #004d00;
-            margin: 50px 0;
-            width: 90%;
-        }
-
-        ul, ol {
-            text-align: left;
-            display: inline-block;
+            margin: 40px 0;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1><b>About Coltivare</b></h1>
-    <p class="small-text"><i>Innovating tomorrow’s farming solutions—today.</i></p>
+    <h1><u><b>About NovaEdge Technologies</b></u></h1>
 
-    <img src="https://via.placeholder.com/600x200?text=NovaEdge+Technologies+HQ" alt="NovaEdge HQ">
+    <p class="small-text"><i>Innovating tomorrow’s solutions—today.</i></p>
 
-    <p class="large-text">Founded in <span style="color: #cc0000;"><b>2012</b></span>, NovaEdge Technologies started as a small tech lab in Chicago with a big vision: <i>to connect the world smarter and faster.</i></p>
+    <img src="https://via.placeholder.com/600x200?text=NovaEdge+HQ" alt="NovaEdge Headquarters" width="600">
 
-    <!-- PAGE BREAK -->
+    <p class="large-text">
+        NovaEdge Technologies was founded in <b><span style="color: red;">2012</span></b>. Our mission is to <i>connect the world smarter and faster</i>.
+    </p>
+
     <hr class="page-break">
 
     <h2>Our History</h2>
-    <div class="textbook-box">
-        <p class="alt-font">In just a few years, NovaEdge grew from three engineers in a basement to a global company helping industries digitize infrastructure, healthcare, and logistics across five continents.</p>
-    </div>
 
-    <hr>
+    <div class="textbook-box">
+        <p class="alt-font">
+            NovaEdge started in a small Chicago basement with just three engineers. Now we help connect hospitals, roads, and companies across the globe.
+        </p>
+    </div>
 
     <h2>Key Milestones</h2>
     <ol>
         <li>2012 – Company founded</li>
-        <li>2014 – First product release: NovaLink</li>
-        <li>2017 – Global expansion to 10 countries</li>
-        <li>2023 – Surpassed 10M connected users</li>
+        <li>2014 – First product launched</li>
+        <li>2017 – Expanded globally</li>
+        <li>2023 – Reached 10 million users</li>
     </ol>
-
-    <hr>
 
     <h2>What We Value</h2>
     <ul>
         <li><b>Integrity</b></li>
-        <li><i>Customer-first innovation</i></li>
-        <li>Sustainable design</li>
-        <li>Collaboration</li>
+        <li><i>Customer-first thinking</i></li>
+        <li>Sustainability</li>
+        <li>Teamwork</li>
     </ul>
 
-    <hr>
+    <p>
+        Visit our official site: 
+        <a href="https://www.novaedgetech.com" target="_blank">www.novaedgetech.com</a>
+    </p>
 
-    <p>Visit our <a href="https://www.novaedgetech.com" target="_blank">main website</a> to explore more.</p>
+    <p>
+        See our <a href="careers.html">Careers page</a> for job openings.
+    </p>
 
-    <p>Interested in joining us? See our <a href="careers.html">Careers page</a>.</p>
+    <p>
+        Contact the page creator: 
+        <a href="mailto:info@novaedgetech.com">info@novaedgetech.com</a>
+    </p>
 
-    <p>Contact the creator: <a href="mailto:info@novaedgetech.com">info@novaedgetech.com</a></p>
-
-    <p><b>Download our 2025 Annual Report:</b><br>
+    <p>
+        <b>Download our 2025 company report:</b><br>
         <a href="NovaEdge_2025_Report.pdf" download>NovaEdge_2025_Report.pdf</a>
     </p>
 
     <hr>
+
     <p class="small-text">Date last modified: <span id="lastModified"></span></p>
 </div>
 
 <script>
-    document.getElementById("lastModified").textContent = new Date().toLocaleDateString();
+    document.getElementById("lastModified").innerText = new Date().toLocaleDateString();
 </script>
 
 </body>
