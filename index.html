@@ -1,122 +1,124 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <title>About Us - NovaEdge Technologies</title>
     <meta charset="UTF-8">
-    <title>About Us | NovaEdge Technologies</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #001f3f;
-            color: white;
-            padding: 20px;
+            background-color: #E6F2FF; /* light blue background */
+            color: #000033; /* dark text */
+            font-family: "Arial", sans-serif;
             text-align: center;
         }
 
-        main {
-            padding: 40px;
-            max-width: 900px;
-            margin: auto;
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 20px;
+            border: 3px solid #000099;
         }
 
-        h1, h2 {
-            color: #001f3f;
+        h1 {
+            font-size: 36px;
+            color: #000099;
+            text-decoration: underline; /* underline used here */
         }
 
-        .highlight {
-            color: #0074D9; /* Font color 1 */
+        h2 {
+            color: #CC0000;
         }
 
-        .emphasis {
-            color: #FF4136; /* Font color 2 */
+        p {
+            font-size: 16px;
         }
 
         .small-text {
-            font-size: 13px; /* Font size 1 */
+            font-size: 12px; /* smaller font */
         }
 
         .large-text {
-            font-size: 20px; /* Font size 2 */
+            font-size: 20px; /* larger font */
         }
 
         .alt-font {
-            font-family: "Courier New", Courier, monospace; /* Font style 2 */
+            font-family: "Courier New", monospace; /* second font style */
         }
 
         img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 20px 0;
+            margin: 20px auto;
+            display: block;
+            border: 2px solid #000033;
         }
 
         a {
-            color: #0074D9;
+            color: #0066CC;
         }
 
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #001f3f;
-            color: white;
-            text-align: center;
-            font-size: 14px;
+        hr {
+            border: 2px solid #000099;
         }
 
+        ul, ol {
+            text-align: left;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1><u>About NovaEdge Technologies</u></h1>
-        <p class="small-text"><i>Innovating tomorrow’s solutions—today.</i></p>
-    </header>
+<div class="container">
+    <h1><b>About NovaEdge Technologies</b></h1>
+    <p class="small-text"><i>Innovating tomorrow’s solutions—today.</i></p>
 
-    <main>
-        <h2>Our Story</h2>
-        <p class="large-text"><b>NovaEdge Technologies</b> was founded in 2012 with a mission to build smarter, more sustainable systems for industries across the globe.</p>
+    <img src="https://via.placeholder.com/600x200?text=NovaEdge+Technologies+HQ" alt="NovaEdge HQ">
 
-        <img src="https://via.placeholder.com/800x300?text=NovaEdge+Headquarters" alt="NovaEdge Headquarters">
+    <p class="large-text">Founded in <span style="color: #FF0000;"><b>2012</b></span>, NovaEdge Technologies began as a small startup in Chicago with a big idea: <i>connect the world smarter and faster.</i></p>
 
-        <p class="alt-font">From humble beginnings in a shared workspace in Chicago, our journey has been one of bold ideas, tough challenges, and breakthrough technologies. Today, NovaEdge powers infrastructure, health systems, and logistics operations in more than 45 countries.</p>
+    <p class="alt-font">In just a few years, we expanded into Europe, Asia, and beyond—fueling growth in smart infrastructure, logistics, and data analytics.</p>
 
-        <h2 class="highlight">Key Milestones</h2>
-        <ol>
-            <li>2012 – NovaEdge is founded</li>
-            <li>2014 – Launch of first AI-driven logistics platform</li>
-            <li>2017 – Expansion into Europe and Asia</li>
-            <li>2021 – Reached $100M in annual revenue</li>
-        </ol>
+    <hr>
 
-        <h2 class="highlight">What We Stand For</h2>
-        <ul>
-            <li><b>Integrity</b> in every decision</li>
-            <li><i>Human-centered design</i></li>
-            <li>Forward-thinking sustainability</li>
-            <li>Excellence through innovation</li>
-        </ul>
+    <h2>Key Milestones</h2>
+    <ol>
+        <li>2012 – Company founded</li>
+        <li>2014 – First product release: NovaLink</li>
+        <li>2017 – Global expansion to 10 countries</li>
+        <li>2023 – Surpassed 10M connected users</li>
+    </ol>
 
-        <p>To learn more, visit our <a href="https://www.novaedgetech.com" target="_blank">official website</a>, or check out our <a href="careers.html">Careers Page</a> for opportunities.</p>
+    <hr>
 
-        <p>Questions? Reach out to us directly at <a href="mailto:info@novaedgetech.com">info@novaedgetech.com</a></p>
+    <h2>What We Value</h2>
+    <ul>
+        <li><b>Integrity</b></li>
+        <li><i>Customer-first innovation</i></li>
+        <li>Sustainable design</li>
+        <li>Collaboration</li>
+    </ul>
 
-        <p><b>Download our 2025 Annual Report:</b> 
-            <a href="NovaEdge_2025_Report.pdf" download>NovaEdge_2025_Report.pdf</a>
-        </p>
-    </main>
+    <hr>
 
-    <footer>
-        <p class="small-text">Date last modified: <span id="lastModified"></span></p>
-    </footer>
+    <p>Visit our <a href="https://www.novaedgetech.com" target="_blank">main website</a> to explore more.</p>
 
-    <script>
-        document.getElementById("lastModified").textContent = new Date().toLocaleDateString();
-    </script>
+    <p>Interested in joining us? See our <a href="careers.html">Careers page</a>.</p>
+
+    <p>Contact the creator: <a href="mailto:info@novaedgetech.com">info@novaedgetech.com</a></p>
+
+    <p><b>Download our 2025 Annual Report:</b><br>
+        <a href="NovaEdge_2025_Report.pdf" download>NovaEdge_2025_Report.pdf</a>
+    </p>
+
+    <hr>
+    <p class="small-text">Date last modified: <span id="lastModified"></span></p>
+</div>
+
+<script>
+    document.getElementById("lastModified").textContent = new Date().toLocaleDateString();
+</script>
+
+</body>
+</html>
 
 </body>
 </html>
