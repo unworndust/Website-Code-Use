@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>About Us - NovaEdge Technologies</title>
+    <title>About Us - Coltivare</title>
     <meta charset="UTF-8">
     <style>
         body {
-            background-color: #E6F2FF; /* light blue background */
-            color: #000033; /* dark text */
+            background-color: #D2B48C; /* light brown */
+            color: #004d00; /* dark green text */
             font-family: "Arial", sans-serif;
             text-align: center;
         }
@@ -14,19 +13,19 @@
         .container {
             width: 800px;
             margin: 0 auto;
-            background-color: #FFFFFF;
+            background-color: #ccffcc; /* light green */
             padding: 20px;
-            border: 3px solid #000099;
+            border: 3px solid #004d00;
         }
 
         h1 {
             font-size: 36px;
-            color: #000099;
-            text-decoration: underline; /* underline used here */
+            color: #004d00;
+            text-decoration: underline;
         }
 
         h2 {
-            color: #CC0000;
+            color: #006600;
         }
 
         p {
@@ -34,29 +33,44 @@
         }
 
         .small-text {
-            font-size: 12px; /* smaller font */
+            font-size: 12px;
         }
 
         .large-text {
-            font-size: 20px; /* larger font */
+            font-size: 20px;
         }
 
         .alt-font {
-            font-family: "Courier New", monospace; /* second font style */
+            font-family: "Courier New", monospace;
+        }
+
+        .textbook-box {
+            background-color: #fdfae6; /* cream/yellow */
+            border: 2px dashed #666633;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
         }
 
         img {
             margin: 20px auto;
             display: block;
-            border: 2px solid #000033;
+            border: 2px solid #004d00;
         }
 
         a {
-            color: #0066CC;
+            color: #006600;
         }
 
         hr {
-            border: 2px solid #000099;
+            border: 2px solid #004d00;
+        }
+
+        .page-break {
+            border: none;
+            border-top: 4px double #004d00;
+            margin: 50px 0;
+            width: 90%;
         }
 
         ul, ol {
@@ -68,14 +82,20 @@
 <body>
 
 <div class="container">
-    <h1><b>About NovaEdge Technologies</b></h1>
-    <p class="small-text"><i>Innovating tomorrow’s solutions—today.</i></p>
+    <h1><b>About Coltivare</b></h1>
+    <p class="small-text"><i>Innovating tomorrow’s farming solutions—today.</i></p>
 
-    <img src="https://www.bing.com/images/search?view=detailV2&ccid=m4%2bME4p7&id=B257E0C6C2B8EF02A89EA15CEA03F3F1AF01F30E&thid=OIP.m4-ME4p7aOSGw3Rb9iSh0QHaE7&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f1198507%2fpexels-photo-1198507.jpeg%3fcs%3dsrgb%26dl%3dbarn-cropland-dawn-1198507.jpg%26fm%3djpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.9b8f8c138a7b68e486c3745bf624a1d1%3frik%3dDvMBr%252fHzA%252bpcoQ%26pid%3dImgRaw%26r%3d0&exph=2000&expw=3008&q=image+of+a+farm&simid=608025009310426907&FORM=IRPRST&ck=6038F2BD617526ED7BC23B7ED1A80A10&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0" alt="NovaEdge HQ">
+    <img src="https://via.placeholder.com/600x200?text=NovaEdge+Technologies+HQ" alt="NovaEdge HQ">
 
-    <p class="large-text">Founded in <span style="color: #FF0000;"><b>2012</b></span>, NovaEdge Technologies began as a small startup in Chicago with a big idea: <i>connect the world smarter and faster.</i></p>
+    <p class="large-text">Founded in <span style="color: #cc0000;"><b>2012</b></span>, NovaEdge Technologies started as a small tech lab in Chicago with a big vision: <i>to connect the world smarter and faster.</i></p>
 
-    <p class="alt-font">In just a few years, we expanded into Europe, Asia, and beyond—fueling growth in smart infrastructure, logistics, and data analytics.</p>
+    <!-- PAGE BREAK -->
+    <hr class="page-break">
+
+    <h2>Our History</h2>
+    <div class="textbook-box">
+        <p class="alt-font">In just a few years, NovaEdge grew from three engineers in a basement to a global company helping industries digitize infrastructure, healthcare, and logistics across five continents.</p>
+    </div>
 
     <hr>
 
@@ -116,9 +136,6 @@
 <script>
     document.getElementById("lastModified").textContent = new Date().toLocaleDateString();
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
