@@ -1,111 +1,154 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Coltivare</title>
-    <style>
-        body {
-            background-color: #d2b48c; /* light brown */
-            color: #004d00; /* dark green */
-            font-family: Arial;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            background-color: #ccffcc; /* light green */
-            padding: 20px;
-        }
-
-        .textbook-box {
-            background-color: #fdfae6;
-            border: 2px dashed #666633;
-            padding: 15px;
-            margin-top: 20px;
-        }
-
-        .small-text {
-            font-size: 12px;
-        }
-
-        .large-text {
-            font-size: 20px;
-        }
-
-        .alt-font {
-            font-family: "Courier New", monospace;
-        }
-
-        .page-break {
-            border-top: 4px double #004d00;
-            margin: 40px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Coltivare</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="container">
-    <h1><u><b>About Coltivare</b></u></h1>
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>About Coltivare</h1>
+                <p>Cultivating success in agriculture for over five decades</p>
+            </div>
+        </section>
 
-    <p class="small-text"><i>Innovating tomorrow’s solutions—today.</i></p>
+        <div class="container">
+            <section class="section">
+                <h2>Our Story</h2>
+                <p>Founded in 1974, Coltivare has been a cornerstone of agricultural excellence in our community for over 50 years. What started as a small family business with a simple mission—to provide farmers with quality equipment and honest service—has grown into a trusted regional leader in agricultural solutions.</p>
+                
+                <p>The name "Coltivare" comes from the Latin word meaning "to cultivate," reflecting our deep commitment to helping farmers nurture their land, their crops, and their livelihoods. This philosophy has guided every decision we've made throughout our journey.</p>
+            </section>
 
-    <img src="https://th.bing.com/th/id/R.1fd7ee504a43034ab654e9022ad1e7a7?rik=bjvpTFNJyrZQlw&pid=ImgRaw&r=0" alt="NovaEdge Headquarters" width="600">
+            <section class="section">
+                <h2>Our Mission</h2>
+                <p>At Coltivare, our mission is simple: to empower farmers with the tools, knowledge, and support they need to succeed. We believe that when farmers thrive, entire communities flourish. That's why we're dedicated to:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🎯 Providing Excellence</h3>
+                        <p>Offering only the highest quality farming equipment and products that meet the demanding needs of modern agriculture.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🤝 Building Relationships</h3>
+                        <p>Fostering long-term partnerships with farmers, manufacturers, and our community through trust and reliability.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🚀 Driving Innovation</h3>
+                        <p>Staying at the forefront of agricultural technology to bring farmers the latest innovations and solutions.</p>
+                    </div>
+                </div>
+            </section>
 
-    <p class="large-text">
-        Coltivare was founded in <b><span style="color: red;">1825</span></b>. Our mission is to <i>offer leading edge products to enable the future of farming</i>.
-    </p>
+            <section class="section">
+                <h2>What Sets Us Apart</h2>
+                <p>In an industry where trust and expertise matter most, Coltivare stands out for several key reasons:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>📚 Deep Knowledge</h3>
+                        <p>Our team includes experienced farmers and agricultural specialists who understand the real-world challenges you face every day.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🏪 Personal Service</h3>
+                        <p>We take the time to understand your specific needs and recommend solutions that fit your operation and budget.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🔧 Complete Support</h3>
+                        <p>From initial consultation to ongoing maintenance, we provide comprehensive support throughout your equipment's lifecycle.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🌍 Community Focus</h3>
+                        <p>As a local business, we're invested in the success of our farming community and support local agricultural initiatives.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>💡 Forward Thinking</h3>
+                        <p>We actively seek customer feedback and implement suggestions to continuously improve our products and services.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🏆 Proven Track Record</h3>
+                        <p>Five decades of serving farmers speaks to our commitment, reliability, and the trust our customers place in us.</p>
+                    </div>
+                </div>
+            </section>
 
-    <hr class="page-break">
+            <section class="section">
+                <h2>Our Values</h2>
+                <p>Everything we do is guided by core values that have remained constant throughout our growth:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🌟 Integrity</h3>
+                        <p>We conduct business with honesty, transparency, and ethical practices in every interaction.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎯 Excellence</h3>
+                        <p>We strive for the highest standards in everything we do, from product quality to customer service.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🤝 Partnership</h3>
+                        <p>We view our customers as partners and work collaboratively to achieve mutual success.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>💡 Innovation</h3>
+                        <p>We embrace new technologies and approaches that can benefit our customers and the industry.</p>
+                    </div>
+                </div>
+            </section>
 
-    <h2>Our History</h2>
+            <section class="section">
+                <h2>Looking Forward</h2>
+                <p>As we look to the future, Coltivare remains committed to evolving with the agricultural industry while maintaining the personal touch and expertise that our customers have come to rely on. We're excited about emerging technologies in precision agriculture, sustainable farming practices, and innovative equipment designs that will help farmers be more productive and environmentally responsible.</p>
+                
+                <p>Our goal is to continue being the trusted partner that farmers turn to when they need equipment that works, advice they can trust, and service they can count on. Because at Coltivare, your success is our success.</p>
+            </section>
+        </div>
+    </main>
 
-    <div class="textbook-box">
-        <p class="alt-font">
-            Coltivare started as a small farm in Indiana. Our heritage has defined us since the beginning, and we provide leading edge products and services alongside our 200 year old knowledge base.
-        </p>
-    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Coltivare. All rights reserved. | Serving farmers with excellence since 1974</p>
+            <div class="last-modified">
+                <p>Page last updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
 
-    <h2>Key Milestones</h2>
-    <ol>
-        <li>1825 – Farm founded</li>
-        <li>1887 – First plow sold</li>
-        <li>1950 – First tractor sold</li>
-        <li>1995 – Reached 50+ generations of farmers</li>
-    </ol>
-
-    <h2>What We Value</h2>
-    <ul>
-        <li>Integrity</li>
-        <li>Customer-first thinking</li>
-        <li>Sustainability</li>
-        <li>Teamwork</li>
-    </ul>
-
-    <p>
-        Visit our official site: 
-        <a href="https://www.ruralking.com" target="_blank">https://www.Coltivare.com/</a>
-    </p>
-
-    <p>
-        See our <a href="careers.html">Careers page</a> for job openings.
-    </p>
-
-    <p>
-        Contact the page creator: 
-        <a href="mailto:lrubchi@purdue.edu">lrubchi@purdue.edu</a>
-    </p>
-
-    <p>
-        <b>Download our 2025 company report:</b><br>
-        <a href="NovaEdge_2025_Report.pdf" download>NovaEdge_2025_Report.pdf</a>
-    </p>
-
-    <hr>
-
-    <p class="small-text">Date last modified: <span id="lastModified"></span></p>
-</div>
-
-<script>
-    document.getElementById("lastModified").innerText = new Date().toLocaleDateString();
-</script>
-
+    <script>
+        // Update last modified date
+        document.getElementById("lastModified").innerText = new Date().toLocaleDateString();
+        
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
